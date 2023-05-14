@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>إنشاء حساب جديد</title>
+	<style>
+		body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+		input[type="text"], input[type="password"] {
+			display: block;
+			margin: 10px 0;
+			padding: 5px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			width: 200px;
+		}
+		button {
+			background-color: #00ff00;
+			color: #fff;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			margin-right: 10px;
+		}
+		button.red {
+			background-color: #fff;
+			color: #ff0000;
+		}
+	</style>
+</head>
+<body>
+	<h1>إنشاء حساب جديد</h1>
+	<form>
+		<label for="username">اسم المستخدم:</label>
+		<input type="text" id="username" name="username" required>
+		<label for="password">كلمة المرور:</label>
+		<input type="password" id="password" name="password" required>
+		<label for="confirm-password">إعادة كلمة المرور:</label>
+		<input type="password" id="confirm-password" name="confirm-password" required>
+		<button type="submit">تسجيل حساب جديد</button>
+		<button type="button" class="red"><a href="file:///C:/Users/ADMIN/Desktop/FF.html">عودة</a></button>
+	</form>
+</body>
+</html>
